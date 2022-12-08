@@ -14,3 +14,79 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+
+
+  - package-ecosystem: maven
+    directory: /bnd-plugins/org.eclipse.transformer.bnd.analyzer
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /bnd-plugins/org.eclipse.transformer.bnd.analyzer/src/it/shading
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /bnd-plugins/org.eclipse.transformer.bnd.analyzer/src/test/resources/META-INF/maven/groupId/artifactId
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /bnd-plugins
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /maven-plugins
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /maven-plugins/transformer-maven-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /maven-plugins/transformer-maven-plugin/src/it/classifier-jar
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /maven-plugins/transformer-maven-plugin/src/it/shading
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /maven-plugins/transformer-maven-plugin/src/it/simple-jar
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /maven-plugins/transformer-maven-plugin/src/it/simple-process
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /maven-plugins/transformer-maven-plugin/src/test/projects/transform-build-artifact
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /org.eclipse.transformer.cli
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /org.eclipse.transformer.jakarta
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /org.eclipse.transformer.parent
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /org.eclipse.transformer
+    schedule:
+      interval: daily
